@@ -1,0 +1,30 @@
+body{
+
+}
+div.container-img img{
+box-shadow: -3px 6px 6px -2px #000000;
+}
+
+.container3{
+	height: 0;
+}
+
+.footer-container{
+  position: relative;
+}
+
+.container3{
+  height: 0 !important;
+}
+
+
+
+
+  @media screen and (max-width: 300px) {
+  	.header-right a{
+    float: right;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: -5px;
+  	}
+  }

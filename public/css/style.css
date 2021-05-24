@@ -1,0 +1,737 @@
+body { 
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----- ESTILOS HEADER ----- */
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  height: auto;
+}
+
+.header a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 30px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 20px;
+  transition: ease-in-out .5s;
+  
+}
+
+
+.header a:hover{
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    background: #343434;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right{
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 5px;
+  bottom: 0px;
+
+
+}
+
+
+.logo1{
+  position: relative;
+  display:block;
+  width: 40%;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+.dropdown-menu{
+  transform: translate(0px, 0px) !important;
+  position: relative !important;
+  height: auto;
+  background: black;
+
+  }
+.dropdown-menu a{
+  color: white;
+}
+
+.dropdown-menu a:hover{
+  color: #EBEBEB;
+
+}
+
+.idiomas{
+  animation-name: fade-texto;
+  animation-duration: .6s;
+  height: auto;
+}
+
+@keyframes fade-texto{
+   0%{ bottom:  200px; opacity: 0;}
+  100%{bottom: 0px; opacity: 1;}
+}
+
+
+/* ------ FIN ESTILOS HEADER ----- */
+
+
+
+
+/*----- ESTILOS NAVBAR ----- */
+
+div ul.navbar-nav{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.collapse ul li{
+  padding-left: 10%;
+  padding-right: 30%;
+  display: flex;
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+}
+
+div.collapse ul li a{
+  
+  display: block;
+}
+
+
+
+div.collapse ul li a{
+ 
+  display: flex;
+  margin: auto;
+  
+
+}
+
+
+
+/* ----- FIN ESTILOS NAVBAR ----- */
+
+
+
+
+
+
+
+
+
+
+/* ------ ESTILOS DE CONTAINER1 (ROW) -----*/
+
+.row{
+    width: 100%;
+  }
+
+
+ .container1{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 0;
+}
+
+.container-img{
+
+  
+}
+
+.container-img img{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background: no-repeat center fixed;
+  z-index: 10;
+
+
+
+}
+
+div.imagen2 img{
+  width: 80%;
+}
+
+div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  max-width: 400px;
+  z-index: 5;
+  width: 25%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+
+
+
+/* ------ FIN DE ESTILOS CONTAINER 1------*/
+
+
+
+
+
+/* ----- ESTILOS CONTAINER 2 ----- */
+
+.container2{
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+
+}
+
+h2.biografia{
+  
+  color: #000;
+  padding: 1% 20% 0 20%;
+  text-align: center;
+  font-size: 22px;  
+}
+
+.container2 p{
+  color: #727272;
+  padding: 1% 20% 0 20%;
+  text-align: center;
+  font-size: 16px;  
+}
+
+
+.container2 p.texto1, .container2 p.texto2{
+  color: #727272;
+  padding: 1% 20% 0 20%;
+  text-align: center;
+  font-size: 16px; 
+  animation-name: fade-texto;
+  animation-duration: 1.5s;
+  position: relative; 
+}
+
+
+@keyframes fade-texto{
+  0%{ bottom:  200px; opacity: 0;}
+  100%{bottom: 0px; opacity: 1;}
+}
+
+
+/*----- FIN DE ESTILOS CONTAINER 2 -----*/
+
+
+
+
+
+/* ------ ESTILOS CONTAINER 3 ----- */
+
+.container3{
+  position: relative;
+  width: 100%;
+  height: 5000px;
+  background: #1d6b92;
+ 
+ 
+}
+
+div.titulo-cont3{
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 5%;
+
+
+  
+}
+
+h2.h2-cont3{
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  
+}
+
+div.contenido1-inf{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  width: 900px;
+  height: 500px;
+}
+
+div.contenido1-inf img, div.contenido2-inf img, div.contenido3-inf img{
+  border-radius: 15px;
+}
+
+
+
+
+div p.inf1-txt{
+  font-size: 1.5em !important;
+  text-align: center;
+  width: 700px;
+  height: 350px;
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 60%;
+  color: white;
+}
+
+div.contenido2-inf{
+  position: absolute;
+  top: 45%;
+  right: 2%;
+  width: 900px;
+  height: 500px; 
+  
+
+}
+
+div p.inf2-txt{
+  
+  font-size: 1.5em !important;
+  text-align: center;
+  width: 700px;
+  height: 350px;
+  position: absolute;
+  margin-top: 2200px;
+  margin-left: 5%;
+  color: white;
+}
+
+
+
+div.contenido3-inf{
+  position: absolute;
+  left: 2%;
+  bottom: 15%;
+  width: 900px;
+  height: 500px;
+  
+ 
+}
+
+div p.inf3-txt{
+  font-size: 1.5em !important;
+  text-align: center;
+  width: 700px;
+  height: 350px;
+  position: absolute;
+  margin-top: 3700px;
+  margin-left: 60%;
+  color: white;
+  
+}
+
+
+
+
+/* ----- FIN DE ESTILOS CONTAINER 3 ----- /*
+
+
+/* ----- FOOTER ESTILOS -----*/
+
+
+.inner-div{
+  width: 100%;
+  background-color: #004466;
+  border-radius: 3px;
+}
+
+.footer-container{
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid white;
+  box-shadow: 2px 2px 15px black;
+  width: 100%;
+  background: #000;
+
+
+}
+
+.footer-logo{
+  height: 150px;
+  width: 400px;
+  
+
+}
+
+.absolute{
+  margin-left: 5%;
+}
+
+img.margen{
+  margin-top: 5%;
+
+}
+
+.cont-redes{
+  width: 30%;
+  margin-left: 20px;
+}
+
+ul li a i{
+  margin: 10px 10px;
+  width: 50px;
+  float: left;
+  font-size: 50px;
+
+}
+
+h4{
+
+}
+
+div.container{
+  margin-top: 50px;
+}
+
+div.row{
+  padding-top: 10px;
+}
+
+.footer {
+  background: #000;
+  color: white;
+  
+  }
+
+    .footer .links ul {
+      list-style-type: none;
+    }
+    .footer .links li a {
+      color: white;
+      transition: color 0.2s;
+      list-style: 
+      }
+      .footer .links li a:hover{
+        text-decoration: none;
+        color: #4180cb;
+      }
+  .footer .about-company 
+    i {
+      font-size: 25px;
+    }
+   .footer .about-company a {
+      color: white;
+      transition: color 0.2s;
+       }
+      .footer .about-company li a:hover{
+        color: #4180cb;
+      }
+   
+
+  .footer .location i {
+      font-size: 18px;
+    }
+  
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  div.logo-footer-cont{
+    transition: ease-in-out .5s;
+    
+   
+    
+  }
+
+  div.logo-footer-cont:hover{
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    background: #343434;
+  }  
+
+ 
+
+
+/*----- FIN DE ESTILOS FOOTER -----*/
+
+
+@media screen and (max-width: 600px) {
+.header-right{
+  position: relative;
+  float: right;
+  right: 15px;
+  top: -40px;
+
+
+}
+
+
+ h2.h2-cont3{
+  font-size: 38px;
+ }
+
+ div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  z-index: 5;
+  width: 25% !important;
+  height: 30% !important;
+  border-radius: 10px !important;
+}
+
+  .navbar-toggler{
+  margin-left: 10px !important;
+}
+
+  .header a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+  .header-right a{
+    float: right;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+
+  }
+
+   .container2 p.texto1{
+    display: none;
+
+    }
+
+    .container3{
+    height: 4000px !important;
+  }
+
+    div.contenido1-inf{
+  
+    margin:  400px auto !important;
+
+  }
+  div.contenido1-inf img{
+    margin-top: -80%;
+    
+  }
+
+  div.contenido-txt1{
+    margin: -215% auto 0 auto !important;
+  }
+
+  div.contenido-txt1 p.inf1-txt{
+    font-size: 17px !important;
+
+  }
+
+  div.contenido2-inf{
+     position: static;
+    margin:  200px auto !important;
+    width: 80%;
+  }
+
+ div.contenido-txt2{
+    margin: -110% auto 0 auto !important;
+  }
+
+   div.contenido-txt2 p.inf2-txt{
+    font-size: 17px !important;
+  }
+
+
+
+   div.contenido-txt3{
+    margin: -180% auto 0 auto !important;
+  }
+
+   div.contenido-txt3 p.inf3-txt{
+    font-size: 17px !important;
+  }
+
+  .cont-redes{
+    justify-content: center;
+     width: 100% !important;
+  } 
+
+
+
+  
+}
+/*------ MEDIDA DE CELULARES ------*/
+@media screen and (max-width: 768px) {
+
+
+
+ /*----- CAMBIO DE NAVBAR -----*/
+  .navbar-toggler{
+
+  }
+
+  .absolute{
+    margin-left: 0;
+  }
+
+
+
+   
+}
+
+
+
+
+/*------ MEDIDA DE TABLETS ------*/
+
+@media screen and (max-width: 992px){
+    
+  div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  z-index: 5;
+  width: 25%;
+  height: 60%;
+  border-radius: 10px;
+  }
+
+    .navbar-toggler{
+    margin-left: 15px;
+    }
+    .absolute{
+    margin-left: 0;
+  }
+
+   .footer-logo{
+  margin-left: 0;
+
+  }
+
+ 
+
+ .collapse ul li{
+  padding-left: 0%;
+  padding-right: 0%;
+  display: block;
+  font-size: 1.0em;
+  text-align: none;
+
+  }
+  
+
+}
+
+@media screen and (max-width: 1400px){
+.cont-redes{
+     width: 70%;
+  }  
+}
+
+
+
+/*-----  MEDIDA DE ESCRITORIO -----*/
+
+
+
+
+
+@media screen and (max-width: 1800px) {
+
+  .container3{
+  height: 6000px;
+  }
+
+    div.contenido1-inf {
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+  }
+
+  div.contenido-txt1{
+    margin: -1% auto;
+    width: 80%;
+
+  }
+
+  div.contenido-txt1 p.inf1-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+    div.contenido2-inf{
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+
+  }
+
+
+ div.contenido-txt2{
+    margin: -1% auto;
+    width: 80%;
+  }
+
+   div.contenido-txt2 p.inf2-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+    div.contenido3-inf{
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+
+  }
+ 
+
+   div.contenido-txt3{
+    margin: 0% auto;
+    width: 80%;
+  }
+
+   div.contenido-txt3 p.inf3-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+
+
+}
+
+
+
+
+  
+
+
+
+
+
+/* ------- FOOTER Estilos ------*/
+
+
+
+/*--- Fin sw FOOTER Estilos ---*/
+
+
