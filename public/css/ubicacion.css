@@ -1,0 +1,865 @@
+div.container-img{
+	position: relative;
+}
+
+div.container1{
+	
+}
+
+div.texto-cont1{
+ width: 80%;
+ margin:0 auto;
+ height: auto; 
+ position: absolute;
+ top: 25%;
+ left: 10%;
+}
+
+div.texto-cont1 p{
+	margin: 0 25%;
+	color: white;
+	display: inline-flex;
+	font-size: 12px;
+	height: auto;
+  animation-name: texto-evento;
+  animation-duration: 1.5s;
+}
+
+@keyframes texto-evento{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+button.evento{
+	width: 25%;
+	transition: .5s;
+	background: #1d6b92;
+	color: white;
+	box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.45);
+	padding: 5px 10px;
+	border-radius: 40px;
+	margin: 8% 0 0 36%;
+	
+	
+}
+
+button:hover{
+	background: white;
+	color: #000;
+}
+
+
+
+.footer-container{
+	position: absolute;
+	bottom: 0;
+}
+
+div.contenido-txt1{
+    
+
+  }
+
+
+@media screen and (max-width: 800px){
+	div.texto-cont1{
+		margin-top: -70px;
+	}
+
+	div.texto-content1 p{
+		margin-top: -500px !important;
+		font-size: 50px;
+	}
+
+	button.evento{
+	width: 70%;
+	left: 0;
+	margin: 3% 0 0 15%;
+	
+	
+	}
+
+
+
+
+ }
+
+
+body { 
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----- ESTILOS HEADER ----- */
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 30px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 20px;
+  transition: ease-in-out .5s;
+  
+}
+
+
+
+.header a:hover{
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    background: #343434;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right{
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 5px;
+  bottom: 0px;
+
+
+}
+
+.header-right a{
+
+}
+
+
+.logo1{
+  position: relative;
+  display:block;
+  width: 40%;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+
+/* ------ FIN ESTILOS HEADER ----- */
+
+
+
+
+/*----- ESTILOS NAVBAR ----- */
+
+
+div ul.navbar-nav{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  }
+
+div.collapse ul li{
+  padding-left: 10%;
+  padding-right: 30%;
+  display: flex;
+}
+
+div.collapse ul li a{
+
+  
+  display: block;
+}
+
+div.collapse{
+  max-height: 50px;
+}
+
+div.collapse ul{
+
+  
+
+}
+
+div.collapse ul:first-child{
+  
+}
+
+div.collapse ul li{
+  font-size: 1.1em;
+  text-align: center;
+  display: flex;
+}
+
+div.collapse ul li:first-child{
+  
+  margin: 0;
+}
+
+div.collapse ul li a{
+ 
+  display: flex;
+  margin: auto;
+  
+
+}
+
+/* ----- FIN ESTILOS NAVBAR ----- */
+
+
+
+
+
+
+
+
+
+
+/* ------ ESTILOS DE CONTAINER1 (ROW) -----*/
+
+.row{
+    width: 100%;
+  }
+
+
+ .container1{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 0;
+}
+
+.container-img{
+
+  
+}
+
+.container-img img{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background: no-repeat center fixed;
+  z-index: 10;
+
+
+}
+
+div.imagen2 img{
+  width: 80%;
+}
+
+div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  max-width: 400px;
+  z-index: 5;
+  width: 25%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+
+
+
+/* ------ FIN DE ESTILOS CONTAINER 1------*/
+
+
+
+
+
+/* ----- ESTILOS CONTAINER 2 ----- */
+
+.container2{
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+
+}
+
+h2.biografia{
+  
+  color: #000;
+  padding: 1% 20% 0 20%;
+  text-align: center;
+  font-size: 22px;  
+}
+
+.container2 p{
+  color: #727272;
+  padding: 1% 20% 0 20%;
+  text-align: center;
+  font-size: 16px;  
+}
+
+
+
+
+
+
+
+/*----- FIN DE ESTILOS CONTAINER 2 -----*/
+
+
+
+
+
+/* ------ ESTILOS CONTAINER 3 ----- */
+
+.container3{
+  position: relative;
+  width: 100%;
+  height: 3000px;
+  background: #1d6b92;
+ 
+ 
+}
+
+div.titulo-cont3{
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 5%;
+
+
+  
+}
+
+h2.h2-cont3{
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  
+}
+
+div.titulo-ubicacion{
+  position: static;
+	margin-top: 60%;
+	margin-left: 15%;
+	width: 70%;
+	height: auto;
+	
+}
+
+.mapa{
+  justify-content: center;
+	display: flex;
+	margin-left: 0%;
+}
+	
+	
+
+
+
+h2.h2-ubicacion{
+	text-align: center;
+	color: white;
+}
+
+div.contenido1-inf img, div.contenido2-inf img, div.contenido3-inf img{
+  border-radius: 15px;
+}
+
+div.contenido1-inf{
+  position: absolute;
+  top: 8%;
+  left: 1%;
+  width: 25%;
+  height: 300px;
+  
+}
+
+
+
+div p.inf1-txt{
+  font-size: 1.5em;
+  text-align: center;
+  width: 25%;
+  height: 350px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 1%;
+  color: white;
+}
+
+div.contenido2-inf{
+  position: absolute;
+  top: 8%;
+  right: 3%;
+  width: 25%;
+  height: 300px; 
+  
+
+}
+
+div p.inf2-txt{ 
+  font-size: 1.5em;
+  text-align: center;
+  width: 25%;
+  height: 350px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 36%;
+  color: white;
+}
+
+
+
+div.contenido3-inf{
+  position: absolute;
+  left: 36%;
+  top: 8%;
+  width: 25%;
+  height: 200px;
+  
+ 
+}
+
+div p.inf3-txt{
+ font-size: 1.5em;
+  text-align: center;
+  width: 25%;
+  height: 350px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left:  72%;
+  color: white;
+  
+}
+
+
+
+
+/* ----- FIN DE ESTILOS CONTAINER 3 ----- /*
+
+
+/* ----- FOOTER ESTILOS -----*/
+
+
+.inner-div{
+  width: 100%;
+  background-color: #004466;
+  border-radius: 3px;
+}
+
+.footer-container{
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid white;
+  box-shadow: 2px 2px 15px black;
+  width: 100%;
+  background: #000;
+
+
+}
+
+.footer-logo{
+  height: 150px;
+  width: 400px;
+  
+
+}
+
+.absolute{
+  margin-left: 5%;
+}
+
+img.margen{
+  margin-top: 5%;
+
+}
+
+div.container{
+  margin-top: 50px;
+}
+
+div.row{
+  padding-top: 10px;
+}
+
+.footer {
+  background: #000;
+  color: white;
+  
+  }
+
+    .footer .links ul {
+      list-style-type: none;
+    }
+    .footer .links li a {
+      color: white;
+      transition: color 0.2s;
+      list-style: 
+      }
+      .footer .links li a:hover{
+        text-decoration: none;
+        color: #4180cb;
+      }
+  .footer .about-company 
+    i {
+      font-size: 25px;
+    }
+   .footer .about-company a {
+      color: white;
+      transition: color 0.2s;
+       }
+      .footer .about-company li a:hover{
+        color: #4180cb;
+      }
+   
+
+  .footer .location i {
+      font-size: 18px;
+    }
+  
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  div.logo-footer-cont{
+    transition: ease-in-out .5s;
+    
+   
+    
+  }
+
+  div.logo-footer-cont:hover{
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    background: #343434;
+  } 
+
+  .cont-redes{
+  width: 30%;
+  margin-left: 20px;
+}
+
+ul li a i{
+  margin: 10px 10px;
+  width: 50px;
+  float: left;
+  font-size: 50px;
+
+}
+
+
+ 
+
+
+/*----- FIN DE ESTILOS FOOTER -----*/
+	/*--- 600 ---*/
+
+@media screen and (max-width: 600px) {
+.header-right{
+  position: relative;
+  float: right;
+  right: 15px;
+  top: -40px;
+
+
+}
+
+
+ h2.h2-cont3{
+  font-size: 38px;
+ }
+
+ div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  z-index: 5;
+  width: 25% !important;
+  height: 30% !important;
+  border-radius: 10px !important;
+}
+
+  .navbar-toggler{
+  margin-left: 2% !important;
+}
+
+  .header a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+  .header-right a{
+    float: right;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+
+  }
+
+   .container2 p.texto1{
+    display: none;
+
+    }
+
+    .container3{
+    height: 5000px !important;
+  }
+
+    div.contenido1-inf{
+  
+    margin:  400px auto !important;
+
+  }
+  div.contenido1-inf img{
+    margin-top: -80%;
+    
+  }
+
+  div.contenido-txt1{
+    margin-top: -120% !important;
+  }
+
+  div.contenido-txt1 p.inf1-txt{
+    font-size: 17px;
+
+  }
+
+  div.contenido2-inf{
+     position: static;
+    margin:  200px auto !important;
+    width: 80%;
+  }
+
+ div.contenido-txt2{
+    margin-top: -30% !important;
+  }
+
+   div.contenido-txt2 p.inf2-txt{
+    font-size: 17px;
+  }
+
+
+
+   div.contenido-txt3{
+    margin-top: -65% !important;
+  }
+
+   div.contenido-txt3 p.inf3-txt{
+    font-size: 17px;
+  }
+
+  .mapa{
+  justify-content: center;
+  margin-left: auto !important;
+  margin-bottom: 500px;
+}
+
+ .cont-redes{
+    justify-content: center;
+     width: 100% !important;
+  } 
+
+  
+}
+/*------ MEDIDA DE CELULARES ------*/
+	/*--- 768 ---*/
+@media screen and (max-width: 768px) {
+
+
+
+ /*----- CAMBIO DE NAVBAR -----*/
+ 
+
+  .absolute{
+    margin-left: 0;
+  }
+
+
+
+   
+}
+
+
+
+
+/*------ MEDIDA DE TABLETS ------*/
+/*--- 992 ---*/
+@media screen and (max-width: 992px){
+    
+  div.imagen2 img.img-pietro{
+  margin-top: 3%;
+  margin-left: 3%;
+  position: absolute;
+  z-index: 5;
+  width: 25%;
+  height: 60%;
+  border-radius: 10px;
+  }
+
+       .absolute{
+    margin-left: 0;
+  }
+
+   .footer-logo{
+  margin-left: 0;
+
+  }
+
+  
+  
+
+}
+
+
+
+
+
+/*-----  MEDIDA DE ESCRITORIO -----*/
+
+	/*--- 1400 ---*/
+@media screen and (max-width: 1400px) {
+    
+.cont-redes{
+     width: 70%;
+  }  
+
+
+
+	/*--- 1600 ---*/
+@media screen and (max-width: 1600px) {
+    div ul.navbar-nav{
+      width: 20%;
+  }
+
+}
+	/*--- 1800 ---*/
+@media screen and (max-width: 1800px) {
+
+  .container3{
+  height: 6700px;
+  }
+
+    div.contenido1-inf{
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+  }
+
+  div.contenido-txt1{
+    margin: 1% auto;
+    width: 80%;
+
+  }
+
+  div.contenido-txt1 p.inf1-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+    div.contenido2-inf{
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+
+  }
+
+
+ div.contenido-txt2{
+    margin: -1% auto;
+    width: 80%;
+  }
+
+   div.contenido-txt2 p.inf2-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+    div.contenido3-inf{
+    position: static;
+    margin:  500px auto;
+    width: 80%;
+
+  }
+ 
+
+   div.contenido-txt3{
+    margin: 40% auto;
+    width: 80%;
+  }
+
+   div.contenido-txt3 p.inf3-txt{
+    margin: 0 5% 0 0%;
+    text-align: justify;
+    display: inline;
+    position: static;
+    height: auto;
+
+  }
+
+  div.titulo-ubicacion{
+  position: static;
+  margin-top: 20%;
+  margin-left: 15%;
+  width: 70%;
+  height: auto;
+  
+}
+
+.mapa{
+  justify-content: center;
+  display: flex;
+  margin-left: 0%;
+  margin-bottom: 500px;
+}
+
+  .footer-container{
+	
+	left: 0;
+	}
+
+
+
+}
+
+/*--- 1900 ---*/
+@media screen and (max-width: 1900px) {
+   div ul.navbar-nav{
+    width: 20%;
+
+  }
+
+  
+
+}
+
+
+
+
+
+/* ------- FOOTER Estilos ------*/
+
+
+
+/*--- Fin sw FOOTER Estilos ---*/
+
+
+
+
+
+
+
+
+
